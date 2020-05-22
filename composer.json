@@ -1,17 +1,24 @@
 {
-    "name": "adrem/seo",
-    "description": "",
-    "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0",
-        "magento/magento-composer-installer": "*"
-    },
-    "suggest": {
-
-    },
+    "name": "hubertinio/seo-module-magento2",
+    "description": "Simplify HTML output",
+    "keywords": [
+        "magento",
+        "seo",
+        "page speed"
+    ],
+    "homepage": "https://github.com/hubertinio/seo-module-magento2",
     "type": "magento2-module",
     "version": "0.1.0",
-    "license": [
-
+    "license": "BSD-3-Clause",
+    "suggest": {
+        "magento/project-community-edition": "*"
+    },
+    "authors": [
+        {
+            "name": "Hubert Miazek",
+            "email": "mr@hubertmiazek.com",
+            "role": "developer"
+        }
     ],
     "autoload": {
         "files": [
@@ -20,13 +27,5 @@
         "psr-4": {
             "Adrem\\Seo\\": ""
         }
-    },
-    "extra": {
-        "map": [
-            [
-                "*",
-                "Adrem/Seo"
-            ]
-        ]
     }
 }

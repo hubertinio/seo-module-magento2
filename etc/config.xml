@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <web>
+            <seo>
+                <html_processor_enabled>1</html_processor_enabled>
+                <html_processor_stylesheet>1</html_processor_stylesheet>
+                <html_processor_script>1</html_processor_script>
+                <html_processor_spaceless>1</html_processor_spaceless>
+                <html_processor_remove_comments>1</html_processor_remove_comments>
+            </seo>
+        </web>
+    </default>
+</config>

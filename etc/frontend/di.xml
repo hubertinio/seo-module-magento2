@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Zend\Http\PhpEnvironment\Response">
+        <plugin name="adrem_seo_response" type="Adrem\Seo\Plugin\ResponsePlugin" />
+    </type>
+    <type name="Adrem\Seo\Service\HtmlContent">
+        <arguments>
+            <argument name="processors" xsi:type="array">
+                <item name="stylesheets-before-bottom-end" xsi:type="object">Adrem\Seo\Helper\Processor\Stylesheet</item>
+                <item name="scripts-before-bottom-end" xsi:type="object">Adrem\Seo\Helper\Processor\Script</item>
+                <item name="html-comments-remove" xsi:type="object">Adrem\Seo\Helper\Processor\Comments</item>
+                <item name="whitespace-remove" xsi:type="object">Adrem\Seo\Helper\Processor\Spaceless</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

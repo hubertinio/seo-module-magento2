@@ -2,7 +2,8 @@
 
 Using this module you can optimize HTML output. The result is one line, minimized with those needed whitespace HTML. As a result, is better performance, page speed insight test score and user experience.
 
-* move all stylesheets and scripts before body end
+* move all stylesheets before body end
+* move all scripts before body end - all types (external and internal) in correct order
 * remove unnecessary whitespaces
 * remove html comments
 

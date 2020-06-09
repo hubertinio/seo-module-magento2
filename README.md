@@ -8,3 +8,19 @@ Using this module you can optimize HTML output. The result is one line, minimize
 * remove html comments
 
 You can also provide your own processors and disable any of the above by configuration.
+
+## Installation
+
+Your composer.json
+```
+"repositories": [
+    { 
+        "type": "git",
+        "url": "https://github.com/hubertinio/seo-module-magento2.git"
+    }
+], 
+```
+...aaaand then...
+```
+composer require hubertinio/seo-module-magento2 0.1.0
+```
